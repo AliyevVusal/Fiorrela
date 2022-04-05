@@ -1,0 +1,101 @@
+
+
+@media (max-width:576px){
+
+    .container{
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    #pcheader{
+        display: none;
+    }
+
+    #mobilheader{
+        display: block !important;
+        .icon-box{
+            text-align: end;
+            a{
+            font-size: 20px;
+            color: black;
+            }
+        }
+    }
+
+    #SLAYDER{
+        width: 100%;
+        background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg);
+        background-position: center;
+        background-size: cover;
+        .text{
+            width: 80%;
+            .box-img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    #Products{
+        .top{
+
+            .text{
+                display: none;
+            }
+            .right{
+                width: 100%;
+            }
+        }
+    }
+
+    #Valentine{
+        iframe{
+            width: 100%;
+            padding-bottom: 20px;
+        }
+    
+    }
+
+    #Join{
+        width: 100%;
+        form{
+            width: 10%;
+            input{
+                padding: 10px 20px 10px 10px !important;
+            }
+
+            a{
+                padding: 10px 10px 10px 10px !important;
+            }
+            
+        }
+
+
+    }
+
+    footer{
+        .top{
+            display: none;
+        }
+        .bottom{
+            text-align: center;
+            
+            .center{
+                margin: 20px 0;
+            }
+            .right{
+                display: none !important; 
+            }
+            .mobil-footer{
+                display: block !important;
+            }
+        }
+    }
+
+    
+
+
+
+}

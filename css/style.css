@@ -1,0 +1,421 @@
+@media (max-width: 576px) {
+  .container {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  #pcheader {
+    display: none;
+  }
+  #mobilheader {
+    display: block !important;
+  }
+  #mobilheader .icon-box {
+    text-align: end;
+  }
+  #mobilheader .icon-box a {
+    font-size: 20px;
+    color: black;
+  }
+  #SLAYDER {
+    width: 100%;
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #SLAYDER .text {
+    width: 80%;
+  }
+  #SLAYDER .text .box-img img {
+    width: 100%;
+  }
+  #Products .top .text {
+    display: none;
+  }
+  #Products .top .right {
+    width: 100%;
+  }
+  #Valentine iframe {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  #Join {
+    width: 100%;
+  }
+  #Join form {
+    width: 10%;
+  }
+  #Join form input {
+    padding: 10px 20px 10px 10px !important;
+  }
+  #Join form a {
+    padding: 10px 10px 10px 10px !important;
+  }
+  footer .top {
+    display: none;
+  }
+  footer .bottom {
+    text-align: center;
+  }
+  footer .bottom .center {
+    margin: 20px 0;
+  }
+  footer .bottom .right {
+    display: none !important;
+  }
+  footer .bottom .mobil-footer {
+    display: block !important;
+  }
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+#pcheader {
+  padding: 40px 0;
+}
+
+#pcheader .box-icon img {
+  width: 100%;
+}
+
+#pcheader .nav-bar ul {
+  list-style: none;
+}
+
+#pcheader .nav-bar ul li {
+  display: inline;
+}
+
+#pcheader .nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#pcheader .nav-bar ul li a::after {
+  display: block;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#pcheader .nav-bar ul li a:hover {
+  color: #F34F3F;
+}
+
+#pcheader .nav-bar ul li a:hover::after {
+  width: 100%;
+}
+
+#mobilheader {
+  display: none;
+  padding: 40px 0;
+  position: relative;
+}
+
+#mobilheader .icon-box {
+  cursor: pointer;
+}
+
+#mobilheader .img-box img {
+  width: 35%;
+}
+
+#mobilheader #click {
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 104px;
+  right: 1px;
+  height: 0%;
+  margin-bottom: 40px;
+  visibility: hidden;
+  background-color: #FEFAF3;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#mobilheader #click ul {
+  padding: 0;
+}
+
+#mobilheader #click ul li {
+  list-style: none;
+}
+
+#mobilheader #click ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+#SLAYDER {
+  padding: 10rem 0;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#SLAYDER .text {
+  padding-left: 5rem;
+}
+
+#SLAYDER .text .box-img img {
+  width: 10%;
+}
+
+#Products {
+  padding: 50px 0;
+}
+
+#Products .top .text {
+  padding: 20px 0;
+}
+
+#Products .top .text a {
+  position: relative;
+  text-decoration: none;
+  padding-right: 40px;
+  font-size: 17px;
+  color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#Products .top .text a:hover {
+  color: #F34F3F;
+}
+
+#Products .top .text #red {
+  color: #F35040;
+}
+
+#Products .top .right {
+  text-align: end;
+  padding-right: 15px;
+}
+
+#Products .top .right a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #000;
+}
+
+#Products .cards .box-card .top {
+  overflow: hidden;
+}
+
+#Products .cards .box-card .top img {
+  width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Products .cards .box-card .top:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#Products .cards .box-card .bottom {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#Products .cards .box-card .bottom a {
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+}
+
+#Valentine {
+  background-color: #F7F7F7;
+  padding: 8rem 0;
+}
+
+#Valentine ul li {
+  list-style: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h1-custom-icon.png);
+}
+
+#Experts {
+  padding: 6rem 0;
+}
+
+#Experts .top {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#Experts .bottom .box .top {
+  text-align: center;
+}
+
+#Experts .bottom .box .top img {
+  width: 70%;
+}
+
+#Experts .bottom .box .bottom {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#Experts .bottom .box .bottom span {
+  font-size: 15px;
+  color: gray;
+}
+
+#Join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 12rem 0;
+  text-align: center;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Join h1 {
+  color: white;
+}
+
+#Join form {
+  background-color: #F34F3F;
+}
+
+#Join form input {
+  padding: 15px 180px 15px 20px;
+  border: none;
+}
+
+#Join form a {
+  padding: 12px 45px;
+  background-color: #F34F3F;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+#Blogs {
+  background-color: #F8F8F8;
+  padding: 6rem 0;
+}
+
+#Blogs .top {
+  text-align: center;
+}
+
+#Blogs .top h1 {
+  padding: 20px 0 30px 0;
+  font-size: 40px;
+}
+
+#Blogs .top p {
+  font-size: 20px;
+  color: gray;
+  padding-bottom: 30px;
+}
+
+#Blogs .bottom .box .top {
+  overflow: hidden;
+}
+
+#Blogs .bottom .box .top:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#Blogs .bottom .box .top img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 100%;
+}
+
+#Blogs .bottom .box .bottom {
+  text-align: center;
+}
+
+#Blogs .bottom .box .bottom h1 {
+  font-size: 17px;
+  padding: 10px 0;
+}
+
+#Blogs .bottom .box .bottom span {
+  font-size: 15px;
+  color: grey;
+}
+
+#SlayderSeconde {
+  padding: 10rem 0;
+  background-color: #FFFFFF;
+}
+
+#SlayderSeconde .text-slayder {
+  text-align: center;
+}
+
+#SlayderSeconde .text-slayder p {
+  font-size: 25px;
+}
+
+footer {
+  background-color: #FEFAF3;
+  padding: 10px 0;
+}
+
+footer .top {
+  padding: 5rem 0;
+}
+
+footer .top .box {
+  text-align: left;
+}
+
+footer .top .box p {
+  text-align: left;
+  padding-left: 30px;
+}
+
+footer .top .box ul {
+  list-style: none;
+}
+
+footer .top .box ul a {
+  text-decoration: none;
+  font-size: 15px;
+  color: gray;
+}
+
+footer .bottom a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: black;
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .bottom a:hover {
+  color: rgba(0, 0, 0, 0.463);
+}
+
+footer .bottom .mobil-footer {
+  display: none;
+}
+
+footer .bottom .mobil-footer i {
+  font-size: 20px;
+  margin: 0 5px;
+}
+/*# sourceMappingURL=style.css.map */

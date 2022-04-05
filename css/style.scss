@@ -1,0 +1,355 @@
+    @import'responsive';
+
+
+    body{
+        background-color: #F8F8F8;
+    }
+
+    #pcheader{
+        padding: 40px 0;
+        
+        .box-icon{
+            img{
+                width: 100%;
+            }
+        }
+
+        .nav-bar{
+
+            ul{
+                li{
+                    
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 15px;
+                        transition: 0.2s;
+
+                        &::after{
+                            display: block;
+                            content: '';
+                            bottom: 0;
+                            left: 0;
+                            width: 0%;
+                            height: 2px;
+                            background-color: #000;
+                            transition: 0.2s;       
+                        }
+
+                        &:hover{
+                            color: #F34F3F;
+                            &::after{
+                                width: 100%;
+                            }
+                        }
+
+                    }
+                    display: inline;
+
+                }
+                    list-style: none;
+             }
+
+        }
+
+    }
+
+    #mobilheader{
+        display: none;
+        padding: 40px 0;
+        position: relative;
+        .icon-box{
+            cursor: pointer;
+        }
+        .img-box{
+            
+            img{
+                width: 35%;
+            }
+        }
+        #click{
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            top: 104px;
+            right:1px;
+            height: 0%;
+            margin-bottom: 40px;
+            visibility: hidden;
+            background-color: #FEFAF3;
+            transition: 0.5s;
+            ul{
+                padding: 0;
+                li{
+                    list-style:none;
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 20px;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    #SLAYDER{
+        padding: 10rem 0;
+        background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg);
+        background-position: center;
+        background-size: cover;
+        .text{
+            padding-left: 5rem;
+            .box-img{
+                img{
+                    width: 10%;
+                }
+            }
+        }
+
+        
+        
+
+    }
+
+    #Products{
+        padding: 50px 0;
+
+        .top{
+            .text{
+                
+                padding: 20px 0;
+                a{
+                    position: relative;
+                    text-decoration: none;
+                    padding-right: 40px;
+                    font-size: 17px;
+                    color: #000;
+                    transition: 0.5s;
+
+                    &:hover{
+                        color: #F34F3F;
+                    }
+                }
+                #red{
+                    color: #F35040;
+                }
+            }
+
+            .right{
+                text-align: end;
+                padding-right: 15px;
+                a{
+                    font-size: 17px;
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+        }
+
+        .cards{  
+            .box-card{
+                .top{
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        transition: 0.3s;
+                    }
+                    &:hover{
+                    img{
+                        transform: scale(1.1);
+                    }  
+                    }
+                }
+                .bottom{
+                    text-align: center;
+                    padding-bottom: 20px;
+                    a{
+                        text-decoration: none;
+                        color: gray;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    #Valentine{
+        background-color: #F7F7F7;
+        padding: 8rem 0;
+        
+        ul{
+            li{
+                list-style:url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h1-custom-icon.png);
+            }
+        }
+    }
+
+    #Experts{
+        padding: 6rem 0;
+
+        .top{
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .bottom{
+            .box{
+                .top{
+                    text-align: center;
+                    img{
+                        width: 70%;
+                    }
+                }
+
+                .bottom{
+                    padding: 20px 0;
+                    text-align: center;
+                    span{
+                        font-size: 15px;
+                        color: gray;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    #Join{
+        display: flex;
+        justify-content: center;
+        padding: 12rem 0;
+        text-align: center;
+        background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+        background-position: center;
+        background-size:cover;
+        background-attachment: fixed;
+        h1{
+            color: white;
+        }
+        form{
+        
+            background-color: #F34F3F;
+            input{
+                padding: 15px 180px 15px 20px;
+                border: none;
+
+            }
+            a{
+                padding: 12px 45px;
+                background-color: #F34F3F;
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+
+    #Blogs{
+        background-color: #F8F8F8;
+        padding: 6rem 0;
+        .top{
+            text-align: center;
+            h1{
+                padding: 20px 0 30px 0;
+                font-size: 40px;
+            }
+
+            p{
+                font-size: 20px;
+                color: gray;
+                padding-bottom: 30px;
+            }
+
+
+        }
+
+        .bottom{
+            .box{
+                
+                .top{
+                    overflow: hidden;
+                    &:hover{
+                        img{
+                            transform: scale(1.2);
+                        }
+                    }
+                    img{
+                        transition: 0.5s;
+                        width: 100%;
+                        
+                    }
+                }
+
+                .bottom{
+                    text-align: center;
+                    h1{
+                        font-size: 17px;
+                        padding: 10px 0;
+                    }
+                    span{
+                        font-size: 15px;
+                        color: grey;
+                    }
+
+                }
+            }
+        }
+    }
+
+    #SlayderSeconde{
+        padding: 10rem 0;
+        background-color: #FFFFFF;
+        .text-slayder{
+            text-align: center;
+            p{
+                font-size: 25px;
+            }
+        }
+    }
+
+    footer{
+        background-color: #FEFAF3;
+        padding: 10px 0;
+        
+        .top{
+            padding: 5rem 0;
+            .box{
+                text-align: left;
+                p{
+                    text-align: left;
+                    padding-left: 30px;
+                }
+                ul{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        font-size: 15px;
+                        color: gray;
+                    }
+                }
+            }
+        }
+
+        .bottom{
+            a{
+                text-decoration: none;
+                padding: 0 10px;
+                color: black;
+                font-size: 15px;
+                transition: 0.5s;
+                &:hover{
+                    color: rgba(0, 0, 0, 0.463);
+                }
+            }
+
+            .mobil-footer{
+                display: none;
+                i{
+                    font-size: 20px;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
